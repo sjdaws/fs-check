@@ -1,0 +1,18 @@
+debug: "true"
+notify:
+  urls:
+  - pushover://shoutrrr:appkey@userkey/
+paths:
+  allow:
+  - /movies/French Connection*
+  block:
+  check:
+  - /movies
+  - /tvshows
+terms:
+  allow:
+  block:
+  - "*dutch*"
+  - "*french*"
+  - "*german*"
+type: f
